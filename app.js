@@ -8,8 +8,8 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "http://localhost:3000",
-      "https://gurujihomes.vercel.app",
+      "http://localhost:5172",
+      "https://guruji-homes-eight.vercel.app",
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
   })
