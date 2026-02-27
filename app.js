@@ -7,7 +7,7 @@ const app = express();
 // CORS configuration
 app.use(
     cors({
-        origin: "https://gurujihomes.vercel.app/",
+        origin: "https://gurujihomes.vercel.app",
         methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
         allowedHeaders: "Content-Type,Authorization",
         credentials: true,
